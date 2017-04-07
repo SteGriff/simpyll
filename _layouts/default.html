@@ -6,11 +6,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="/css/tachyons.css">
 </head>
+
 <body class="bg-near-white navy">
 	<main class="
 		ma3 ma4-l
 		">
+		
+		{% if page.date and page.title %}
+			<h1>{{page.title}}</h1>
+			<p><small>{{page.date | date_to_string}}</small></p>
+		{% endif %}
+		
 		{{content}}
+		
 	</main>
 </body>
+
 </html>

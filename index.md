@@ -3,6 +3,16 @@
 
 # Hello World
 
-## This is Jekyll
+Here are my posts:
 
-I'm writing a page, haha cool
+{% for post in site.posts %}
+
+## {{post.title}}
+
+*{{post.date | date_to_string}}*
+
+ > {{post.content | strip_html | truncatewords : 30}}
+ > 
+ > [Read more...]({{post.url}})
+ 
+{% endfor %}
