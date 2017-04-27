@@ -1,5 +1,6 @@
 ---
 title:  "CommonMark and Markdown"
+tags: CommonMark Markdown Parsers
 ---
 Markdown is the web publishing format which has exploded over the last few years. This blog engine and *many, many* others are powered by it. That means that we write posts that look like [this](./posts/commonmark-and-markdown.md) and they come out looking like shiny webpages.
 

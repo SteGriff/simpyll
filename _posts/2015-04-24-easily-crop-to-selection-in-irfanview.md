@@ -1,5 +1,6 @@
 ---
 title:  "Easily crop to selection in Irfanview"
+tags: Images
 ---
 ![Crop selection in Irfanview](/img/irfanview/crop-in-irfanview.png)
 

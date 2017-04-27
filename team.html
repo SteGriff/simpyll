@@ -1,0 +1,20 @@
+---
+---
+
+<style>
+.male{color:blue;}
+.female{color:orange;}
+.bold{font-weight:bold;}
+</style>
+
+<ul>
+{% assign peeps = site.data.people | sort: 'name' | reverse' %}
+{% for person in peeps %}
+
+	<li class="
+	{% if person.active %}bold{% endif %}
+	{{person.gender}}
+	">{{person.name}} - {{person.age}}</li>
+	
+{% endfor %}
+</ul>
