@@ -1,5 +1,0 @@
-[
-	{"name" : "Jo", "age" : 26, "gender" : "male"},
-	{"name" : "Ste", "age" : 23, "gender" : "male"},
-	{"name" : "Anni", "age" : 24, "gender" : "female", "active" : true}
-]
