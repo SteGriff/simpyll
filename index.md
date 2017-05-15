@@ -13,6 +13,6 @@ Here are my posts:
 
  > {{post.content | strip_html | truncatewords : 30}}
  > 
- > [Read more...]({{post.url}})
+ > [Read more...]({{site.baseurl}}{{post.url}})
  
 {% endfor %}

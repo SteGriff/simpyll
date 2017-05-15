@@ -1,7 +1,6 @@
 ---
 title:  "Easily crop to selection in Irfanview"
 ---
-![Crop selection in Irfanview](/img/irfanview/crop-in-irfanview.png)
 
 I like to have Photoshop installed on my PCs if possible, but at work it isn't. So for most of those common image editing tasks, I use Irfanview!
 
